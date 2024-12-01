@@ -1,4 +1,4 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
           controllerName="ey.sd.sls.controller.App">
-    <App id="idAppCon"/>
+    <App  id="idAppCon"/>
 </mvc:View>

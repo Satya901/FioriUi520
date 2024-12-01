@@ -1,0 +1,13 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+          controllerName="ey.sd.sls.controller.View2">
+    <Page title="View 2" showNavButton="true" navButtonPress="onBack">
+        <!-- <Button id="idBtnBack" text="Back" press="onBack"/> -->
+        <footer>
+            <Toolbar >
+                <ToolbarSpacer ></ToolbarSpacer>
+                <Button text="Save" icon="sap-icon://save" type="Accept" press="onSave"></Button>
+                <Button text="Cancel" icon="sap-icon://cancel" type="Reject" press="onCancel"></Button>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

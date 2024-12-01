@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+          controllerName="ey.sd.sls.controller.View1">
+    <Page title="View 1">
+        <headerContent>
+            <Button icon="sap-icon://action" tooltip="Go to next" press="onNext"></Button>
+        </headerContent>
+        <content>
+            <Button id="idBtnNext" text="Next" press="onNext"/>
+            <Button id="idBtnThirdView" text="Third View" press="onThirdView"/>
+        </content>
+    </Page>
+</mvc:View>
